@@ -15,6 +15,7 @@ section {
 h1 {
   margin: 20px 0 0 0;
   font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
   color: red;
   display: flex;
   justify-content: center;
