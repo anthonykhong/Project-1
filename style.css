@@ -2,7 +2,7 @@ body {
   background: url(imgs/background2.jpg);
   background-size: cover;
   margin: auto;
-  height: 100vh;
+  height: fit-content;
 }
 
 section {
@@ -43,9 +43,9 @@ p {
 }
 
 .card-container {
-  margin-top: 20px;
-  padding: 0 22rem 20px 22rem;
-  height: 90vh;
+  margin: auto;
+  padding-bottom: 5rem;
+  max-width: fit-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
@@ -53,9 +53,8 @@ p {
 }
 
 .card-item {
-  height: 100px;
-  width: 100px;
-  padding: 20px;
+  height: 200px;
+  width: 200px;
   display: flex;
   justify-content: space-between;
   justify-self: center;
@@ -65,7 +64,7 @@ p {
   border-color: red;
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-width: 844px) {
+@media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
   h1 {
     font-size: 30px;
   }
@@ -82,15 +81,18 @@ p {
   }
 
   .card-container {
-    padding: 0 0.5rem 2px 0.5rem;
+    padding: 0 0.5rem 20px 0.5rem;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     gap: 10px;
   }
 
   .card-item {
     height: 40px;
     width: 40px;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
     border-width: medium;
   }
 }
