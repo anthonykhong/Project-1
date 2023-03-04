@@ -1,0 +1,47 @@
+body {
+  background: url(imgs/background2.jpg);
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h1 {
+  margin: auto;
+  font-size: 50px;
+  color: red;
+}
+
+p {
+  margin: auto;
+  font-size: 30px;
+}
+
+.card-container {
+  margin-top: 20px;
+  padding: 0 22rem;
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card-item {
+  height: 100px;
+  width: 100px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  justify-self: center;
+  align-self: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: red;
+}
