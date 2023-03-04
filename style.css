@@ -31,6 +31,12 @@ p {
   height: 50px;
   width: 100px;
   margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: white;
+  background-color: black;
   border-style: solid;
   border-width: thick;
   border-color: red;
@@ -57,4 +63,34 @@ p {
   border-style: solid;
   border-width: thick;
   border-color: red;
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 844px) {
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .timer {
+    height: 25px;
+    width: 50px;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+
+  .card-container {
+    padding: 0 0.5rem 2px 0.5rem;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 10px;
+  }
+
+  .card-item {
+    height: 40px;
+    width: 40px;
+    border-width: medium;
+  }
 }
