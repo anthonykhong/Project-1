@@ -1,31 +1,44 @@
 body {
   background: url(imgs/background2.jpg);
   background-size: cover;
-  margin: 0;
+  margin: auto;
   height: 100vh;
 }
 
 section {
+  margin: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 
 h1 {
-  margin: auto;
+  margin: 20px 0 0 0;
   font-size: 50px;
   color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 p {
-  margin: auto;
   font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}
+
+.timer {
+  height: 50px;
+  width: 100px;
+  margin-left: 20px;
+  border-style: solid;
+  border-width: thick;
+  border-color: red;
 }
 
 .card-container {
   margin-top: 20px;
-  padding: 0 22rem;
+  padding: 0 22rem 20px 22rem;
   height: 90vh;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
