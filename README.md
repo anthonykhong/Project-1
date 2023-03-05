@@ -9,21 +9,29 @@
 /*----- state variables -----*/
 
 // Define timer variable
+
 // Define matchedCards variable
+
 // Define flippedCards variable
 
 /*----- cached elements  -----*/
 
 // Define a variable which will select card-container class from html
+
 // Define variable which will select timer class from html
+
 // Define variable which will select results
+
 // Define variable which will select .start button from html
+
 // Define variable which will select .restart button from html
 
 /*----- event listeners -----*/
 
 // Add event listener which listens to cards clicked
+
 // Add event listener which listens to event when start button is clicked
+
 // Add event listener which listens to event when restart button is clicked
 
 /*----- functions -----*/
