@@ -45,7 +45,7 @@ p {
 
 .card-container {
   margin: auto;
-  padding-bottom: 5rem;
+  padding-bottom: 2rem;
   max-width: fit-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -63,6 +63,26 @@ p {
   border-style: solid;
   border-width: thick;
   border-color: red;
+}
+
+.btn {
+  margin: auto;
+}
+
+button {
+  height: 3rem;
+  width: 6rem;
+  margin: 15px;
+  background-color: red;
+  color: white;
+  border-radius: 30%;
+  border-style: solid;
+  border-color: darkred;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-width: 1000px) {
@@ -84,7 +104,7 @@ p {
   .card-container {
     max-width: fit-content;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     gap: 10px;
   }
 
