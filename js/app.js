@@ -37,6 +37,12 @@
 // Holds renderResults function
 // Holds renderCards function
 
+// Add renderTimer function
+
+// Add renderResults function
+
+// Add renderCards function
+
 // Add handleClick function
 
 // Add flipCards function
