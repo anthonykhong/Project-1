@@ -72,16 +72,22 @@ p {
 button {
   height: 3rem;
   width: 6rem;
-  margin: 15px;
+  margin: 2vmin;
+  font-weight: 900;
+  font-size: 14px;
   background-color: red;
   color: white;
-  border-radius: 30%;
+  border-radius: 4vmin;
   border-style: solid;
-  border-color: darkred;
+  border-color: black;
+}
+
+.start {
+  background-color: lightseagreen;
 }
 
 button:hover {
-  background-color: white;
+  background-color: seashell;
   color: black;
 }
 
