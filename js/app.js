@@ -3,20 +3,20 @@
 // Define constant which will hold an array of cards images
 const cards = [
   "/imgs/zoro.jpg",
-  "/imgs/nami.jpg",
-  "/imgs/ussop.jpg",
-  "/imgs/sanji.jpg",
-  "/imgs/chopper.jpg",
-  "/imgs/robin.jpg",
-  "/imgs/franky.jpg",
-  "/imgs/brook.jpg",
   "/imgs/zoro.jpg",
   "/imgs/nami.jpg",
+  "/imgs/nami.jpg",
+  "/imgs/ussop.jpg",
   "/imgs/ussop.jpg",
   "/imgs/sanji.jpg",
+  "/imgs/sanji.jpg",
+  "/imgs/chopper.jpg",
   "/imgs/chopper.jpg",
   "/imgs/robin.jpg",
+  "/imgs/robin.jpg",
   "/imgs/franky.jpg",
+  "/imgs/franky.jpg",
+  "/imgs/brook.jpg",
   "/imgs/brook.jpg",
 ];
 // Define constant which will hold a single array of flipped card image
