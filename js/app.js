@@ -46,8 +46,8 @@ const restartBtn = document.querySelector(".restart");
 
 /*----- event listeners -----*/
 
-// // Add event listener which listens to cards clicked
-// containerEl.addEventListener("click", handleClick);
+// Add event listener which listens to cards clicked
+containerEl.addEventListener("click", handleClick);
 // // Add event listener which listens to event when start button is clicked
 // startBtn.addEventListener("click", start);
 // // Add event listener which listens to event when restart button is clicked
@@ -108,6 +108,14 @@ function renderCards() {
 }
 
 // Add handleClick function
+function handleClick(evt) {
+  const clickedCard = evt.target;
+  if (clickedCard.classList.contains("card-item") && flippedCards.length >= 2) {
+    return;
+  }
+  flipCards(clickedCard);
+  checkMatches();
+}
 
 // Add flipCards function
 
