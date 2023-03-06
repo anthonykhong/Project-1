@@ -89,7 +89,11 @@ function renderTimer() {
 
 // Add renderResults function
 function renderResults() {
-  resultsEl.innerText = "MATCH THE CARDS TO WIN";
+  if (matchedCards === cards.length) {
+    resultsEl.innerText = "YOU WIN!";
+  } else {
+    resultsEl.innerText = "MATCH THE CARDS TO WIN";
+  }
 }
 
 // Add renderCards function
