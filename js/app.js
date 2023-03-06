@@ -55,6 +55,7 @@ const restartBtn = document.querySelector(".restart");
 
 /*----- functions -----*/
 
+init();
 // Add initialize function
 function init() {
   // Holds timer variable

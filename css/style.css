@@ -2,7 +2,7 @@ body {
   background: url(/imgs/background2.jpg);
   background-size: cover;
   margin: auto;
-  height: fit-content;
+  height: 100vh;
 }
 
 section {
