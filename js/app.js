@@ -14,10 +14,15 @@ let flippedCards;
 /*----- cached elements  -----*/
 
 // Define a variable which will select card-container class from html
+const containerEl = document.querySelector(".card-container");
 // Define variable which will select timer class from html
+const timerEl = document.querySelector(".timer");
 // Define variable which will select results
+const resultsEl = document.querySelector(".results");
 // Define variable which will select .start button from html
+const startBtn = document.querySelector(".start");
 // Define variable which will select .restart button from html
+const restartBtn = document.querySelector(".restart");
 
 /*----- event listeners -----*/
 
