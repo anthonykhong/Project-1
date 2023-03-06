@@ -82,6 +82,9 @@ function render() {
 }
 
 // Add renderTimer function
+function renderTimer() {
+  timerEl.innerText = 45;
+}
 
 // Add renderResults function
 
