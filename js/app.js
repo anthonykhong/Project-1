@@ -92,6 +92,15 @@ function renderResults() {
 }
 
 // Add renderCards function
+function renderCards() {
+  containerEl.innerHTML = "";
+  for (let i = 0; i < cards.length; i++) {
+    const cardEl = document.createElement("div");
+    cardEl.classList.add("card-item");
+    cardEl.style.backgroundImage = `url(${backCard})`;
+    containerEl.appendChild(cardEl);
+  }
+}
 
 // Add handleClick function
 
