@@ -69,4 +69,12 @@
 
 ## Wireframe
 
+### Explanations of the main game screen
+
+![Wireframe planning](https://user-images.githubusercontent.com/116925227/223021657-17400d1d-23b2-4dd2-aeb4-f4c0a039495c.jpg)
+
+### Screenshot of what the game screen will look like
+
 ![Wireframe](https://user-images.githubusercontent.com/116925227/222992737-47ffbf69-a31d-47f2-b71d-345a7740ffc0.png)
+
+
