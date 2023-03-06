@@ -28,8 +28,11 @@ const restartBtn = document.querySelector(".restart");
 /*----- event listeners -----*/
 
 // Add event listener which listens to cards clicked
+containerEl.addEventListener("click", handleClick);
 // Add event listener which listens to event when start button is clicked
+startBtn.addEventListener("click", start);
 // Add event listener which listens to event when restart button is clicked
+restartBtn.addEventListener("click", restart);
 
 /*----- functions -----*/
 
