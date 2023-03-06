@@ -20,6 +20,7 @@ const cards = [
   "/imgs/brook.jpg",
 ];
 // Define constant which will hold a single array of flipped card image
+const backCard = ["/imgs/back.png"];
 
 /*----- state variables -----*/
 
