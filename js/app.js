@@ -1,6 +1,7 @@
 /*----- constants -----*/
 
 // Define constant which will hold an array of cards images
+// Define constant which will hold a single array of flipped card image
 
 /*----- state variables -----*/
 
