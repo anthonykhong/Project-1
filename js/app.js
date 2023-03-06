@@ -55,7 +55,6 @@ const restartBtn = document.querySelector(".restart");
 
 /*----- functions -----*/
 
-init();
 // Add initialize function
 function init() {
   // Holds timer variable
@@ -73,9 +72,14 @@ function init() {
 }
 
 // Add render function
-// Holds renderTimer function
-// Holds renderResults function
-// Holds renderCards function
+function render() {
+  // Holds renderTimer function
+  renderTimer();
+  // Holds renderResults function
+  renderResults();
+  // Holds renderCards function
+  renderCards();
+}
 
 // Add renderTimer function
 
