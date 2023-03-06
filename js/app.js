@@ -5,8 +5,11 @@
 /*----- state variables -----*/
 
 // Define timer variable
+let timer;
 // Define matchedCards variable
+let matchedCards;
 // Define flippedCards variable
+let flippedCards;
 
 /*----- cached elements  -----*/
 
