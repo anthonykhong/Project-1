@@ -60,9 +60,6 @@ p {
   justify-content: space-between;
   justify-self: center;
   align-self: center;
-  border-style: solid;
-  border-width: thick;
-  border-color: red;
 }
 
 .btn {
