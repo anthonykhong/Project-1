@@ -87,6 +87,9 @@ function renderTimer() {
 }
 
 // Add renderResults function
+function renderResults() {
+  resultsEl.innerText = "MATCH THE CARDS TO WIN";
+}
 
 // Add renderCards function
 
