@@ -55,7 +55,6 @@ restartBtn.addEventListener("click", restart);
 
 /*----- functions -----*/
 
-init();
 // Add initialize function
 function init() {
   // Holds timer variable
@@ -124,22 +123,28 @@ function start() {
   let count = 45;
   timerEl.style.visibility = "visible";
   timerEl.innerText = count;
-  let timer = setInterval(() => {
+  let timerId = setInterval(() => {
     count--;
     if (count) {
       timerEl.innerText = count;
     } else {
-      clearInterval(timer);
+      clearInterval(timerId);
       timerEl.style.visibility = "hidden";
       resultsEl.innerText = "YOU LOSE!";
+      startBtn.disabled = false;
     }
   }, 1000);
+  timer = timerId;
+  startBtn.disabled = true;
 }
 
 // Add restart function
 function restart() {
   clearInterval(timer);
+  startBtn.disabled = false;
   init();
 }
 
 // Add shuffle function
+
+init();
