@@ -86,11 +86,7 @@ function renderTimer() {
 
 // Add renderResults function
 function renderResults() {
-  if (matchedCards === cards.length / 2) {
-    resultsEl.innerText = "YOU WIN!";
-  } else {
-    resultsEl.innerText = "MATCH THE CARDS TO WIN";
-  }
+  resultsEl.innerText = "MATCH THE CARDS TO WIN";
 }
 
 // Add renderCards function
@@ -127,7 +123,22 @@ function flipCards(clickedCard) {
 }
 
 // Add checkMatches function
-function checkMatches() {}
+function checkMatches() {
+  if (
+    flippedCards[0].style.backgroundImage ===
+    flippedCards[1].style.backgroundImage
+  ) {
+    matchedCards++;
+    flippedCards = [];
+    if (matchedCards === cards.length / 2) {
+      setTimeout(() => {
+        resultsEl.innerText = "YOU WIN!";
+        clearInterval(timer);
+        startBtn.disabled = false;
+      }, 500);
+    }
+  }
+}
 
 // Add start function
 function start() {
