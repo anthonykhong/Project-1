@@ -181,9 +181,9 @@ function shuffle(cards) {
   const shuffledCards = [...cards];
   for (let i = shuffledCards.length; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
-    [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+    [cards[i], cards[j]] = [cards[j], cards[i]];
   }
-  return shuffledCards;
+  return cards;
 }
 
 init();
