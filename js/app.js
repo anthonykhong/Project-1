@@ -24,7 +24,6 @@ const backCard = ["/imgs/back.png"];
 
 /*----- state variables -----*/
 
-let card;
 // Define timer variable
 let timer;
 // Define matchedCards variable
@@ -103,7 +102,6 @@ function renderCards() {
     cardEl.dataset.cardIndex = i;
     cardEl.style.backgroundImage = `url(${backCard})`;
     containerEl.appendChild(cardEl);
-    card = cardEl;
   }
 }
 
@@ -111,14 +109,14 @@ function renderCards() {
 function handleClick(evt) {
   const clickedCard = evt.target;
   if (clickedCard.classList.contains("card-item") && flippedCards.length < 2) {
-    flipCards(card);
+    flipCards(clickedCard);
   }
 }
 
 // Add flipCards function
-function flipCards(card) {
-  card.style.backgroundImage = `url${cards[card.dataset.cardIndex]}`;
-  flippedCards.push(card);
+function flipCards(clickedCard) {
+  clickedCard.style.backgroundImage = `url(${cards[card.dataset.cardIndex]})`;
+  flippedCards.push(clickedCard);
 }
 
 // Add checkMatches function
