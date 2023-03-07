@@ -115,8 +115,10 @@ function handleClick(evt) {
 }
 
 // Add flipCards function
+function flipCards() {}
 
 // Add checkMatches function
+function checkMatches() {}
 
 // Add start function
 function start() {
@@ -146,5 +148,13 @@ function restart() {
 }
 
 // Add shuffle function
+function shuffle(cards) {
+  const shuffledCards = [...cards];
+  for (let i = shuffledCards.length; i > 0; i--) {
+    const j = Math.floor(Math.random() * i);
+    [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
+  }
+  return shuffledCards;
+}
 
 init();
