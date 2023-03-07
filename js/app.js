@@ -24,6 +24,7 @@ const backCard = ["/imgs/back.png"];
 
 /*----- state variables -----*/
 
+let card;
 // Define timer variable
 let timer;
 // Define matchedCards variable
@@ -58,11 +59,11 @@ restartBtn.addEventListener("click", restart);
 // Add initialize function
 function init() {
   // Holds timer variable
-  let timer = null;
+  timer = null;
   // Holds matchedCards variable
-  let matchedCards = 0;
+  matchedCards = 0;
   // Holds flippedCards variable
-  let flippedCards = [];
+  flippedCards = [];
   // Holds render function
   render();
   // Holds shuffle function
@@ -102,21 +103,23 @@ function renderCards() {
     cardEl.dataset.cardIndex = i;
     cardEl.style.backgroundImage = `url(${backCard})`;
     containerEl.appendChild(cardEl);
+    card = cardEl;
   }
 }
 
 // Add handleClick function
 function handleClick(evt) {
   const clickedCard = evt.target;
-  if (clickedCard.classList.contains("card-item") && flippedCards.length >= 2) {
-    return;
+  if (clickedCard.classList.contains("card-item") && flippedCards.length < 2) {
+    flipCards(card);
   }
-  flipCards(clickedCard);
-  checkMatches();
 }
 
 // Add flipCards function
-function flipCards() {}
+function flipCards(card) {
+  card.style.backgroundImage = `url${cards[card.dataset.cardIndex]}`;
+  flippedCards.push(card);
+}
 
 // Add checkMatches function
 function checkMatches() {}
