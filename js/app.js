@@ -91,13 +91,15 @@ function renderResults() {
 
 // Add renderCards function
 function renderCards() {
-  containerEl.innerHTML = "";
-  for (let i = 0; i < cards.length; i++) {
-    const cardEl = document.createElement("div");
-    cardEl.classList.add("card-item");
-    cardEl.dataset.cardIndex = i;
-    cardEl.style.backgroundImage = `url(${backCard})`;
-    containerEl.appendChild(cardEl);
+  if (!containerEl.hasChildNodes()) {
+    containerEl.innerHTML = "";
+    for (let i = 0; i < cards.length; i++) {
+      const cardEl = document.createElement("div");
+      cardEl.classList.add("card-item");
+      cardEl.dataset.cardIndex = i;
+      cardEl.style.backgroundImage = `url(${backCard})`;
+      containerEl.appendChild(cardEl);
+    }
   }
 }
 
@@ -151,7 +153,7 @@ function checkMatches() {
 
 // Add start function
 function start() {
-  let count = 45;
+  let count = 60;
   timerEl.style.visibility = "visible";
   timerEl.innerText = count;
   let timerId = setInterval(() => {
