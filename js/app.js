@@ -99,6 +99,7 @@ function renderCards() {
   for (let i = 0; i < cards.length; i++) {
     const cardEl = document.createElement("div");
     cardEl.classList.add("card-item");
+    cardEl.dataset.cardIndex = i;
     cardEl.style.backgroundImage = `url(${backCard})`;
     containerEl.appendChild(cardEl);
   }
