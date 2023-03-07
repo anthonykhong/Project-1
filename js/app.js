@@ -66,7 +66,7 @@ function init() {
   // Holds render function
   render();
   // Holds shuffle function
-  shuffle();
+  shuffle(cards);
 }
 
 // Add render function
