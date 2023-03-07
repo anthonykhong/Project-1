@@ -50,8 +50,8 @@ const restartBtn = document.querySelector(".restart");
 containerEl.addEventListener("click", handleClick);
 // Add event listener which listens to event when start button is clicked
 startBtn.addEventListener("click", start);
-// // Add event listener which listens to event when restart button is clicked
-// restartBtn.addEventListener("click", restart);
+// Add event listener which listens to event when restart button is clicked
+restartBtn.addEventListener("click", restart);
 
 /*----- functions -----*/
 
@@ -59,7 +59,7 @@ init();
 // Add initialize function
 function init() {
   // Holds timer variable
-  let timer = 45;
+  let timer = null;
   // Holds matchedCards variable
   let matchedCards = 0;
   // Holds flippedCards variable
@@ -137,5 +137,9 @@ function start() {
 }
 
 // Add restart function
+function restart() {
+  clearInterval(timer);
+  init();
+}
 
 // Add shuffle function
