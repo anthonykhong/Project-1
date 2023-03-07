@@ -115,8 +115,15 @@ function handleClick(evt) {
 
 // Add flipCards function
 function flipCards(clickedCard) {
-  clickedCard.style.backgroundImage = `url(${cards[card.dataset.cardIndex]})`;
+  clickedCard.classList.remove("card-item");
+  clickedCard.classList.add("flipped");
+  clickedCard.style.backgroundImage = `url(${
+    cards[clickedCard.dataset.cardIndex]
+  })`;
   flippedCards.push(clickedCard);
+  if (flippedCards.length === 2) {
+    setTimeout(checkMatches, 1000);
+  }
 }
 
 // Add checkMatches function
@@ -153,7 +160,7 @@ function restart() {
 function shuffle(cards) {
   const shuffledCards = [...cards];
   for (let i = shuffledCards.length; i > 0; i--) {
-    const j = Math.floor(Math.random() * i);
+    const j = Math.floor(Math.random() * (i + 1));
     [shuffledCards[i], shuffledCards[j]] = [shuffledCards[j], shuffledCards[i]];
   }
   return shuffledCards;
