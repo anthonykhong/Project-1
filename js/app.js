@@ -48,8 +48,8 @@ const restartBtn = document.querySelector(".restart");
 
 // Add event listener which listens to cards clicked
 containerEl.addEventListener("click", handleClick);
-// // Add event listener which listens to event when start button is clicked
-// startBtn.addEventListener("click", start);
+// Add event listener which listens to event when start button is clicked
+startBtn.addEventListener("click", start);
 // // Add event listener which listens to event when restart button is clicked
 // restartBtn.addEventListener("click", restart);
 
@@ -66,8 +66,6 @@ function init() {
   let flippedCards = [];
   // Holds render function
   render();
-  // Holds start function
-  start();
   // Holds shuffle function
   shuffle();
 }
@@ -84,7 +82,7 @@ function render() {
 
 // Add renderTimer function
 function renderTimer() {
-  timerEl.innerText = 45;
+  timerEl.innerText = "";
 }
 
 // Add renderResults function
@@ -122,6 +120,21 @@ function handleClick(evt) {
 // Add checkMatches function
 
 // Add start function
+function start() {
+  let count = 45;
+  timerEl.style.visibility = "visible";
+  timerEl.innerText = count;
+  let timer = setInterval(() => {
+    count--;
+    if (count) {
+      timerEl.innerText = count;
+    } else {
+      clearInterval(timer);
+      timerEl.style.visibility = "hidden";
+      resultsEl.innerText = "YOU LOSE!";
+    }
+  }, 1000);
+}
 
 // Add restart function
 
