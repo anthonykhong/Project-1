@@ -135,8 +135,17 @@ function checkMatches() {
         resultsEl.innerText = "YOU WIN!";
         clearInterval(timer);
         startBtn.disabled = false;
-      }, 500);
+      }, 0);
     }
+  } else {
+    setTimeout(() => {
+      flippedCards.forEach((card) => {
+        card.classList.add("card-item");
+        card.classList.remove("flipped");
+        card.style.backgroundImage = `url(${backCard})`;
+      });
+      flippedCards = [];
+    }, 1000);
   }
 }
 
