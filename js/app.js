@@ -153,6 +153,7 @@ function checkMatches() {
 
 // Add start function
 function start() {
+  init();
   let count = 60;
   timerEl.style.visibility = "visible";
   timerEl.innerText = count;
@@ -187,4 +188,4 @@ function shuffle(cards) {
   return cards;
 }
 
-init();
+renderCards();
