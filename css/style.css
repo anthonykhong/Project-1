@@ -63,6 +63,8 @@ p {
 }
 
 .flipped {
+  height: 125px;
+  width: 125px;
   border-style: solid;
   border-width: 3px;
   border-image: linear-gradient(yellow, purple) 30;
