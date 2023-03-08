@@ -127,4 +127,13 @@ button:hover {
     justify-self: center;
     border-width: medium;
   }
+
+  .flipped {
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    display: flex;
+    justify-self: center;
+    border-width: medium;
+  }
 }
