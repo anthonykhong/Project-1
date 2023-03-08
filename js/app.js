@@ -65,6 +65,12 @@ function init() {
   flippedCards = [];
   // Holds shuffle function
   shuffle(cards);
+  const cardEls = containerEl.querySelectorAll(".flipped");
+  cardEls.forEach((card) => {
+    card.classList.remove("flipped");
+    card.classList.add("card-item");
+    card.style.backgroundImage = `url(${backCard})`;
+  });
   // Holds render function
   render();
 }
