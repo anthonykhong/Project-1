@@ -110,6 +110,8 @@ function checkMatches() {
     flippedCards[1].style.backgroundImage
   ) {
     matchedCards++;
+    resultsEl.innerText = "MATCHED!";
+    resultsEl.style.color = "lightgreen";
     flippedCards = [];
     if (matchedCards === cards.length / 2) {
       setTimeout(() => {
@@ -119,6 +121,8 @@ function checkMatches() {
       }, 100);
     }
   } else {
+    resultsEl.innerText = "WRONG GUESS";
+    resultsEl.style.color = "red";
     setTimeout(() => {
       flippedCards.forEach((card) => {
         card.classList.add("card-item");
