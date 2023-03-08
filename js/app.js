@@ -116,7 +116,7 @@ function flipCards(clickedCard) {
   clickedCard.classList.remove("card-item");
   clickedCard.classList.add("flipped");
   clickedCard.style.backgroundImage = `url(${
-    cards[parseInt(clickedCard.dataset.cardIndex)]
+    cards[clickedCard.dataset.cardIndex]
   })`;
   flippedCards.push(clickedCard);
   if (flippedCards.length === 2) {
