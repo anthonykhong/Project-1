@@ -62,6 +62,12 @@ p {
   align-self: center;
 }
 
+.flipped {
+  border-style: solid;
+  border-width: 3px;
+  border-image: linear-gradient(yellow, purple) 30;
+}
+
 .btn {
   margin: auto;
 }
