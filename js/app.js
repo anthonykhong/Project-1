@@ -63,10 +63,10 @@ function init() {
   matchedCards = 0;
   // Holds flippedCards variable
   flippedCards = [];
-  // Holds render function
-  render();
   // Holds shuffle function
   shuffle(cards);
+  // Holds render function
+  render();
 }
 
 // Add render function
@@ -137,7 +137,7 @@ function checkMatches() {
         resultsEl.innerText = "YOU WIN!";
         clearInterval(timer);
         startBtn.disabled = false;
-      }, 0);
+      }, 100);
     }
   } else {
     setTimeout(() => {
@@ -180,7 +180,7 @@ function restart() {
 
 // Add shuffle function
 function shuffle(cards) {
-  for (let i = cards.length; i > 0; i--) {
+  for (let i = cards.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cards[i], cards[j]] = [cards[j], cards[i]];
   }
