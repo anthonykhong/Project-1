@@ -69,6 +69,7 @@ function renderTimer() {
 
 function renderResults() {
   resultsEl.innerText = "MATCH THE CARDS TO WIN";
+  resultsEl.style.color = "white";
 }
 
 function renderCards() {
@@ -116,6 +117,7 @@ function checkMatches() {
     if (matchedCards === cards.length / 2) {
       setTimeout(() => {
         resultsEl.innerText = "YOU WIN!";
+        resultsEl.style.color = "white";
         clearInterval(timer);
         startBtn.disabled = true;
       }, 100);
@@ -149,6 +151,7 @@ function start() {
       clearInterval(timerId);
       timerEl.style.visibility = "hidden";
       resultsEl.innerText = "YOU LOSE!";
+      resultsEl.style.color = "white";
       startBtn.disabled = true;
     }
   }, 1000);
