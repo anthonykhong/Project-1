@@ -30,6 +30,8 @@ let timer;
 let matchedCards;
 // Define flippedCards variable
 let flippedCards;
+// Define game start variable
+let started;
 
 /*----- cached elements  -----*/
 
@@ -111,6 +113,7 @@ function renderCards() {
 
 // Add handleClick function
 function handleClick(evt) {
+  if (!started) return;
   const clickedCard = evt.target;
   if (clickedCard.classList.contains("card-item") && flippedCards.length < 2) {
     flipCards(clickedCard);
@@ -160,6 +163,7 @@ function checkMatches() {
 // Add start function
 function start() {
   init();
+  started = true;
   let count = 60;
   timerEl.style.visibility = "visible";
   timerEl.innerText = count;
@@ -180,8 +184,10 @@ function start() {
 
 // Add restart function
 function restart() {
+  started = false;
   clearInterval(timer);
   startBtn.disabled = false;
+  containerEl.disabled = true;
   init();
 }
 

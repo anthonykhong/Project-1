@@ -60,6 +60,8 @@ p {
   justify-content: space-between;
   justify-self: center;
   align-self: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 
 .flipped {
@@ -68,6 +70,7 @@ p {
   border-style: solid;
   border-width: 3px;
   border-image: linear-gradient(yellow, purple) 30;
+  transform: rotateY(180deg);
 }
 
 .btn {
