@@ -20,7 +20,7 @@ const cards = [
   "/imgs/brook.jpg",
 ];
 // Define constant which will hold a single array of flipped card image
-const backCard = ["/imgs/back.png"];
+const backCard = "/imgs/back.png";
 
 /*----- state variables -----*/
 
@@ -116,7 +116,7 @@ function flipCards(clickedCard) {
   clickedCard.classList.remove("card-item");
   clickedCard.classList.add("flipped");
   clickedCard.style.backgroundImage = `url(${
-    cards[clickedCard.dataset.cardIndex]
+    cards[parseInt(clickedCard.dataset.cardIndex)]
   })`;
   flippedCards.push(clickedCard);
   if (flippedCards.length === 2) {
@@ -180,8 +180,7 @@ function restart() {
 
 // Add shuffle function
 function shuffle(cards) {
-  const shuffledCards = [...cards];
-  for (let i = shuffledCards.length; i > 0; i--) {
+  for (let i = cards.length; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [cards[i], cards[j]] = [cards[j], cards[i]];
   }
