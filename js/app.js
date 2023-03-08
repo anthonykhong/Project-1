@@ -112,7 +112,7 @@ function checkMatches() {
   ) {
     matchedCards++;
     resultsEl.innerText = "MATCHED!";
-    resultsEl.style.color = "lightgreen";
+    resultsEl.style.color = "#4BEA80";
     flippedCards = [];
     if (matchedCards === cards.length / 2) {
       setTimeout(() => {
@@ -124,7 +124,7 @@ function checkMatches() {
     }
   } else {
     resultsEl.innerText = "WRONG GUESS";
-    resultsEl.style.color = "red";
+    resultsEl.style.color = "#D93535";
     setTimeout(() => {
       flippedCards.forEach((card) => {
         card.classList.add("card-item");

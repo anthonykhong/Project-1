@@ -40,6 +40,7 @@ p {
   background-color: black;
   border-style: solid;
   border-width: thick;
+  border-radius: 10%;
   border-color: red;
 }
 
@@ -71,6 +72,8 @@ p {
   border-width: 3px;
   border-image: linear-gradient(yellow, purple) 30;
   transform: rotateY(180deg);
+  transition: transform 1s;
+  transform-style: preserve-3d;
 }
 
 .btn {
