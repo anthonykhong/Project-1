@@ -19,6 +19,7 @@ const cards = [
   "/imgs/brook.jpg",
 ];
 const backCard = "/imgs/back.png";
+const audio = new Audio("flip_audio.mp3");
 
 /*----- state variables -----*/
 
@@ -94,6 +95,7 @@ function handleClick(evt) {
 }
 
 function flipCards(clickedCard) {
+  audio.play();
   clickedCard.classList.remove("card-item");
   clickedCard.classList.add("flipped");
   clickedCard.style.backgroundImage = `url(${
