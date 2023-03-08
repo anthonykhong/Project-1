@@ -145,7 +145,7 @@ function checkMatches() {
       setTimeout(() => {
         resultsEl.innerText = "YOU WIN!";
         clearInterval(timer);
-        startBtn.disabled = false;
+        startBtn.disabled = true;
       }, 100);
     }
   } else {
@@ -172,10 +172,11 @@ function start() {
     if (count) {
       timerEl.innerText = count;
     } else {
+      started = false;
       clearInterval(timerId);
       timerEl.style.visibility = "hidden";
       resultsEl.innerText = "YOU LOSE!";
-      startBtn.disabled = false;
+      startBtn.disabled = true;
     }
   }, 1000);
   timer = timerId;
