@@ -1,5 +1,5 @@
 body {
-  background: url(./imgs/background2.jpg);
+  background: url(../imgs/background2.jpg);
   background-size: cover;
   margin: auto;
   height: 100vh;
@@ -48,7 +48,7 @@ p {
   margin: auto;
   padding: 30px;
   max-width: fit-content;
-  background: url(./imgs/container2.jpeg);
+  background: url(../imgs/container2.jpeg);
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
