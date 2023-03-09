@@ -46,7 +46,6 @@ p {
 
 .card-container {
   margin: auto;
-  padding-bottom: 2rem;
   max-width: fit-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -55,6 +54,7 @@ p {
 }
 
 .card-item {
+  margin: auto;
   height: 125px;
   width: 125px;
   display: flex;
