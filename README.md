@@ -1,80 +1,38 @@
-# Concentration Game
+# One Piece Memory Game
 
-## Pseudocode for my concentration game
+## Description
 
-/*----- constants -----*/
+<p>This is a browser-based memory game created using Javascript.</p>
+<p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used the jolly roger of each individual crew member as inspiration for the design of my flipped cards.</p>
 
-// Define constant which will hold an array of cards images
+## Screenshots
 
-/*----- state variables -----*/
+## Technologies
 
-// Define timer variable
+### Languages
 
-// Define matchedCards variable
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img  width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
 
-// Define flippedCards variable
+### Tools
 
-/*----- cached elements  -----*/
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
 
-// Define a variable which will select card-container class from html
+## Getting Started
 
-// Define variable which will select timer class from html
+1. Press start to initialize the game.
+2. Flip the cards in order to find matching pairs.
+3. If all cards are matched before the timer runs out, you win! Or else, you lose.
+4. Press restart to play again!
 
-// Define variable which will select results
+## Upcoming Features
 
-// Define variable which will select .start button from html
+<li>A start page with instructions.</li>
+<li>A restart page.</li>
+<li>Log number of moves the player has made.</li>
+<li>Implement moves in win/loss logic.</li>
+<li>Additional levels.</li>
 
-// Define variable which will select .restart button from html
-
-/*----- event listeners -----*/
-
-// Add event listener which listens to cards clicked
-
-// Add event listener which listens to event when start button is clicked
-
-// Add event listener which listens to event when restart button is clicked
-
-/*----- functions -----*/
-
-// Add initialize function
-// Holds timer variable
-// Holds matchedCards variable
-// Holds flippedCards variable
-// Holds render function
-// Holds start function
-// Holds shuffle function
-
-// Add render function
-// Holds renderTimer function
-// Holds renderResults function
-// Holds renderCards function
-
-// Add renderTimer function
-
-// Add renderResults function
-
-// Add renderCards function
-
-// Add handleClick function
-
-// Add flipCards function
-
-// Add checkMatches function
-
-// Add start function
-
-// Add restart function
-
-// Add shuffle function
-
-## Wireframe
-
-### Explanations of the main game screen
-
-![Wireframe planning](https://user-images.githubusercontent.com/116925227/223021657-17400d1d-23b2-4dd2-aeb4-f4c0a039495c.jpg)
-
-### Screenshot of what the game screen will look like
-
-![Wireframe](https://user-images.githubusercontent.com/116925227/222992737-47ffbf69-a31d-47f2-b71d-345a7740ffc0.png)
-
-
+## Credits
