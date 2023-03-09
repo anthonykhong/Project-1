@@ -80,6 +80,8 @@ function renderCards() {
       const cardEl = document.createElement("div");
       cardEl.classList.add("card-item");
       cardEl.dataset.cardIndex = i;
+      // Data sets will allow access to values outside of this function
+      // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/dataset
       cardEl.style.backgroundImage = `url(${backCard})`;
       containerEl.appendChild(cardEl);
     }
@@ -157,6 +159,7 @@ function start() {
       startBtn.disabled = true;
     }
   }, 1000);
+  // Countdown - GA rock, paper, scissors code along
   timer = timerId;
   startBtn.disabled = true;
 }
@@ -176,5 +179,7 @@ function shuffle(cards) {
   return cards;
 }
 // Fisher-Yates shuffle method
+// https://www.tutorialspoint.com/what-is-fisher-yates-shuffle-in-javascript
+// https://stackoverflow.com/questions/73949977/1-card-is-undefined-when-trying-to-shuffle-deck
 
 renderCards();
