@@ -175,5 +175,6 @@ function shuffle(cards) {
   }
   return cards;
 }
+// Fisher-Yates shuffle method
 
 renderCards();
