@@ -46,11 +46,15 @@ p {
 
 .card-container {
   margin: auto;
+  padding: 30px;
   max-width: fit-content;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(4, 1fr);
   gap: 20px;
+  border-style: solid;
+  border-width: thick;
+  border-radius: 10%;
 }
 
 .card-item {
