@@ -1,7 +1,7 @@
 /*----- constants -----*/
 
 const cards = [
-  "/imgs/zoro.jpg",
+  "./imgs/zoro.jpg",
   "/imgs/zoro.jpg",
   "/imgs/nami.jpg",
   "/imgs/nami.jpg",
