@@ -2,10 +2,10 @@
 
 const cards = [
   "./imgs/zoro.jpg",
-  "/imgs/zoro.jpg",
-  "/imgs/nami.jpg",
-  "/imgs/nami.jpg",
-  "/imgs/ussop.jpg",
+  "./imgs/zoro.jpg",
+  "./imgs/nami.jpg",
+  "./imgs/nami.jpg",
+  "./imgs/ussop.jpg",
   "/imgs/ussop.jpg",
   "/imgs/sanji.jpg",
   "/imgs/sanji.jpg",
@@ -18,7 +18,7 @@ const cards = [
   "/imgs/brook.jpg",
   "/imgs/brook.jpg",
 ];
-const backCard = "/imgs/back.png";
+const backCard = "./imgs/back.png";
 const audio = new Audio("flip_audio.mp3");
 
 /*----- state variables -----*/
