@@ -165,7 +165,6 @@ function restart() {
   started = false;
   clearInterval(timer);
   startBtn.disabled = false;
-  containerEl.disabled = true;
   init();
 }
 
