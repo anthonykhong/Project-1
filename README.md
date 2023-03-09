@@ -1,6 +1,25 @@
 <div align="center">
 
+![image](./imgs/back.png)
+
 # One Piece Memory Game
+
+</div>
+
+<div align="center">
+
+### Created by: [Anthony Khong](https://github.com/anthonykhong)
+
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
+<img  width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+</div>
+
+<div align="center">
+
+## [Play](https://anthonykhong.github.io/concentrationGame/)
 
 </div>
 
@@ -11,37 +30,13 @@
 
 <div align="center">
 
-## Technologies
-
 </div>
-
-<div align="center">
-
-### Languages
-
-</div>
-
-<div align="center">
-<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-<img  width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
-<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
-</div>
-
-<div align="center">
-
-### Tools
-
-<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
-<img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
-</div>
-
-<div align="center">
 
 ## Screenshots
 
-</div>
-
 ![main image](./imgs/main.png)
+
+![gif](./imgs/maingif.gif)
 
 ## Getting Started
 
