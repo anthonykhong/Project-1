@@ -5,20 +5,28 @@
 <p>This is a browser-based memory game created using Javascript.</p>
 <p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used the jolly roger of each individual crew member as inspiration for the design of my flipped cards.</p>
 
-## Screenshots
-
 ## Technologies
+
+<div align="center">
 
 ### Languages
 
+</div>
+
+<div align="center">
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <img  width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
+</div>
 
 ### Tools
 
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+
+## Screenshots
+
+![main image](./imgs/main.png)
 
 ## Getting Started
 
@@ -34,5 +42,3 @@
 <li>Log number of moves the player has made.</li>
 <li>Implement moves in win/loss logic.</li>
 <li>Additional levels.</li>
-
-## Credits
