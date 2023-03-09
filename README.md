@@ -1,11 +1,19 @@
+<div align="center">
+
 # One Piece Memory Game
+
+</div>
 
 ## Description
 
 <p>This is a browser-based memory game created using Javascript.</p>
 <p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used the jolly roger of each individual crew member as inspiration for the design of my flipped cards.</p>
 
+<div align="center">
+
 ## Technologies
+
+</div>
 
 <div align="center">
 
@@ -19,12 +27,19 @@
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
 </div>
 
+<div align="center">
+
 ### Tools
 
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+</div>
+
+<div align="center">
 
 ## Screenshots
+
+</div>
 
 ![main image](./imgs/main.png)
 
