@@ -40,7 +40,7 @@
 
 ![main image](./imgs/main.png)
 
-![gif](./imgs/maingif.gif)
+![gif](./imgs/main2.gif)
 
 ## Upcoming Features
 
