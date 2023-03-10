@@ -134,7 +134,7 @@ button:hover {
   }
 
   .card-container {
-    background: url(./imgs/container2.jpeg);
+    background: url(../imgs/background.png);
     max-width: fit-content;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
