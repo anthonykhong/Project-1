@@ -52,7 +52,7 @@ p {
   border-style: solid;
   border-width: thick;
   border-radius: 10%;
-  border-color: red;
+  border-color: #d1b464;
 }
 
 .card-container {
@@ -67,6 +67,7 @@ p {
   border-style: solid;
   border-width: thick;
   border-radius: 10%;
+  border-color: #d1b464;
 }
 
 .card-item {
