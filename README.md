@@ -15,6 +15,7 @@
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain-wordmark.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
+
 </div>
 
 <div align="center">
@@ -28,22 +29,18 @@
 <p>This is a browser-based memory game created using Javascript.</p>
 <p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used the jolly roger of each individual crew member as inspiration for the design of my flipped cards.</p>
 
-<div align="center">
+## Getting Started
 
-</div>
+1. Press <kbd>start</kbd> to initialize the game.
+2. Flip the cards in order to find matching pairs.
+3. If all cards are matched before the timer runs out, you win! Or else, you lose.
+4. Press <kbd>restart</kbd> to play again!
 
 ## Screenshots
 
 ![main image](./imgs/main.png)
 
 ![gif](./imgs/maingif.gif)
-
-## Getting Started
-
-1. Press start to initialize the game.
-2. Flip the cards in order to find matching pairs.
-3. If all cards are matched before the timer runs out, you win! Or else, you lose.
-4. Press restart to play again!
 
 ## Upcoming Features
 
