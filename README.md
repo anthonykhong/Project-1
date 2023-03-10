@@ -42,7 +42,7 @@
 
 ![gif](./imgs/main2.gif)
 
-## Interesting code
+## Interesting Code Snippet
 
 ```javascript
 function shuffle(cards) {
