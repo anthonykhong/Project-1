@@ -42,6 +42,20 @@
 
 ![gif](./imgs/main2.gif)
 
+## Interesting code
+
+```
+function shuffle(cards) {
+  for (let i = cards.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [cards[i], cards[j]] = [cards[j], cards[i]];
+  }
+  return cards;
+}
+```
+
+This piece of code was interesting to work on. It allowed me to learn about the Fisher-Yates shuffle method, which shuffles the elements in place rather than create a copy.
+
 ## Upcoming Features
 
 <li>A start page with instructions.</li>
