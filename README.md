@@ -27,7 +27,7 @@
 ## Description
 
 <p>This is a browser-based memory game created using Javascript.</p>
-<p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used the jolly roger of each individual crew member as inspiration for the design of my flipped cards.</p>
+<p>As a fan of the manga One Piece, I have decided to use it as the theme of this game. Furthermore, I used each individual crew member as an inspiration for the design of my flipped cards.</p>
 
 ## Getting Started
 
