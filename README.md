@@ -8,7 +8,7 @@
 
 <div align="center">
 
-### Created by: [Anthony Khong](https://github.com/anthonykhong)
+## Created by: [Anthony Khong](https://github.com/anthonykhong)
 
 <img width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
 <img  width="30px" style="padding-right:10px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain-wordmark.svg" />
@@ -19,7 +19,7 @@
 
 <div align="center">
 
-## [Play](https://anthonykhong.github.io/concentrationGame/)
+### Click [Play](https://anthonykhong.github.io/concentrationGame/) to start the game
 
 </div>
 
