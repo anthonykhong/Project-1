@@ -48,7 +48,6 @@ p {
   margin: auto;
   padding: 30px;
   max-width: fit-content;
-  background: url(./imgs/container2.jpeg);
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -74,9 +73,6 @@ p {
 .flipped {
   height: 125px;
   width: 125px;
-  border-style: solid;
-  border-width: 3px;
-  border-image: linear-gradient(yellow, purple) 30;
   transform: rotateY(180deg);
   transition: transform 1s;
   transform-style: preserve-3d;
