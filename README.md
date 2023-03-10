@@ -38,7 +38,11 @@
 
 ## Screenshots
 
+###### Start up screen:
+
 ![main image](./imgs/main.png)
+
+###### Gameplay screen:
 
 ![gif](./imgs/main2.gif)
 
