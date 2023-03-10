@@ -48,7 +48,7 @@ p {
   margin: auto;
   padding: 30px;
   max-width: fit-content;
-  background: url(../imgs/container2.jpeg);
+  background: url(./imgs/container2.jpeg);
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -125,6 +125,7 @@ button:hover {
   }
 
   .card-container {
+    background: url(./imgs/container2.jpeg);
     max-width: fit-content;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(4, 1fr);
