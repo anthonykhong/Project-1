@@ -59,6 +59,7 @@ p {
   margin: auto;
   padding: 30px;
   max-width: fit-content;
+  background: url(../imgs/background.png);
   background-size: cover;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
