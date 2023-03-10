@@ -16,7 +16,17 @@ h1 {
   margin: 30px 0 0 0;
   font-size: 50px;
   font-family: "Luckiest Guy", cursive;
-  color: red;
+  background: radial-gradient(
+    ellipse farthest-corner at left top,
+    #ffffff 0%,
+    #ffffac 8%,
+    #d1b464 25%,
+    #5d4a1f 62.5%,
+    #5d4a1f 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
   display: flex;
   justify-content: center;
   align-items: center;
