@@ -1,22 +1,22 @@
 /*----- constants -----*/
 
 const cards = [
-  "./imgs/zoro.jpg",
-  "./imgs/zoro.jpg",
-  "./imgs/nami.jpg",
-  "./imgs/nami.jpg",
-  "./imgs/ussop.jpg",
-  "./imgs/ussop.jpg",
-  "./imgs/sanji.jpg",
-  "./imgs/sanji.jpg",
-  "./imgs/chopper.jpg",
-  "./imgs/chopper.jpg",
-  "./imgs/robin.jpg",
-  "./imgs/robin.jpg",
-  "./imgs/franky.jpg",
-  "./imgs/franky.jpg",
-  "./imgs/brook.jpg",
-  "./imgs/brook.jpg",
+  "./imgs/zoro.png",
+  "./imgs/zoro.png",
+  "./imgs/nami.png",
+  "./imgs/nami.png",
+  "./imgs/ussop.png",
+  "./imgs/ussop.png",
+  "./imgs/sanji.png",
+  "./imgs/sanji.png",
+  "./imgs/chopper.png",
+  "./imgs/chopper.png",
+  "./imgs/robin.png",
+  "./imgs/robin.png",
+  "./imgs/franky.png",
+  "./imgs/franky.png",
+  "./imgs/brook.png",
+  "./imgs/brook.png",
 ];
 const backCard = "./imgs/back.png";
 const audio = new Audio("flip_audio.mp3");
