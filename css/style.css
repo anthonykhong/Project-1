@@ -142,6 +142,7 @@ button:hover {
   }
 
   .card-item {
+    background: 0% 0% / cover;
     height: 50px;
     width: 50px;
     padding: 10px;
@@ -151,6 +152,7 @@ button:hover {
   }
 
   .flipped {
+    background: 0% 0% / cover;
     height: 50px;
     width: 50px;
     padding: 10px;
